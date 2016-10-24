@@ -8,10 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		467EB9401DBE7D4B00614603 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EB93F1DBE7D4B00614603 /* main.cpp */; };
+		467EB9901DBE939800614603 /* SimpleAdder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 467EB98F1DBE939800614603 /* SimpleAdder.cc */; };
+		467EB9B11DBEBD3500614603 /* InteractiveCalculator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 467EB99C1DBE93CC00614603 /* InteractiveCalculator.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		467EB93A1DBE7D4B00614603 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		467EB9821DBE930E00614603 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		467EB9931DBE93C000614603 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +45,36 @@
 /* Begin PBXFileReference section */
 		467EB93C1DBE7D4B00614603 /* PartIB Computing Practicals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PartIB Computing Practicals"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467EB93F1DBE7D4B00614603 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		467EB9721DBE91C800614603 /* HelloFor.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HelloFor.cc; path = Week1/HelloFor.cc; sourceTree = "<group>"; };
+		467EB9841DBE930E00614603 /* Week1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week1; sourceTree = BUILT_PRODUCTS_DIR; };
+		467EB98D1DBE934400614603 /* Multiples.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Multiples.cc; path = Week1/Multiples.cc; sourceTree = "<group>"; };
+		467EB98F1DBE939800614603 /* SimpleAdder.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleAdder.cc; path = Week1/SimpleAdder.cc; sourceTree = "<group>"; };
+		467EB9951DBE93C000614603 /* Week2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Week2; sourceTree = BUILT_PRODUCTS_DIR; };
+		467EB99C1DBE93CC00614603 /* InteractiveCalculator.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InteractiveCalculator.cc; sourceTree = "<group>"; };
+		467EB99E1DBE93EE00614603 /* Prime.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Prime.cc; sourceTree = "<group>"; };
+		467EB9A01DBE93F600614603 /* RepeatSquare.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatSquare.cc; sourceTree = "<group>"; };
+		467EB9A11DBE93FD00614603 /* RepeatSum.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RepeatSum.cc; sourceTree = "<group>"; };
+		467EB9A21DBE940200614603 /* SimpleAdder2.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleAdder2.cc; sourceTree = "<group>"; };
+		467EB9A31DBE940800614603 /* SumOdd.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SumOdd.cc; sourceTree = "<group>"; };
+		467EB9A51DBEA08B00614603 /* Random.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		467EB9391DBE7D4B00614603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467EB9811DBE930E00614603 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467EB9921DBE93C000614603 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +87,8 @@
 		467EB9331DBE7D4B00614603 = {
 			isa = PBXGroup;
 			children = (
+				467EB9461DBE7E1800614603 /* Week1 */,
+				467EB9471DBE7E2200614603 /* Week2 */,
 				467EB93E1DBE7D4B00614603 /* PartIB Computing Practicals */,
 				467EB93D1DBE7D4B00614603 /* Products */,
 			);
@@ -50,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				467EB93C1DBE7D4B00614603 /* PartIB Computing Practicals */,
+				467EB9841DBE930E00614603 /* Week1 */,
+				467EB9951DBE93C000614603 /* Week2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +110,30 @@
 				467EB93F1DBE7D4B00614603 /* main.cpp */,
 			);
 			path = "PartIB Computing Practicals";
+			sourceTree = "<group>";
+		};
+		467EB9461DBE7E1800614603 /* Week1 */ = {
+			isa = PBXGroup;
+			children = (
+				467EB9721DBE91C800614603 /* HelloFor.cc */,
+				467EB98D1DBE934400614603 /* Multiples.cc */,
+				467EB98F1DBE939800614603 /* SimpleAdder.cc */,
+			);
+			name = Week1;
+			sourceTree = "<group>";
+		};
+		467EB9471DBE7E2200614603 /* Week2 */ = {
+			isa = PBXGroup;
+			children = (
+				467EB99C1DBE93CC00614603 /* InteractiveCalculator.cc */,
+				467EB9A51DBEA08B00614603 /* Random.cc */,
+				467EB99E1DBE93EE00614603 /* Prime.cc */,
+				467EB9A01DBE93F600614603 /* RepeatSquare.cc */,
+				467EB9A11DBE93FD00614603 /* RepeatSum.cc */,
+				467EB9A21DBE940200614603 /* SimpleAdder2.cc */,
+				467EB9A31DBE940800614603 /* SumOdd.cc */,
+			);
+			path = Week2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +156,40 @@
 			productReference = 467EB93C1DBE7D4B00614603 /* PartIB Computing Practicals */;
 			productType = "com.apple.product-type.tool";
 		};
+		467EB9831DBE930E00614603 /* Week1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467EB9881DBE930E00614603 /* Build configuration list for PBXNativeTarget "Week1" */;
+			buildPhases = (
+				467EB9801DBE930E00614603 /* Sources */,
+				467EB9811DBE930E00614603 /* Frameworks */,
+				467EB9821DBE930E00614603 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week1;
+			productName = HelloFor;
+			productReference = 467EB9841DBE930E00614603 /* Week1 */;
+			productType = "com.apple.product-type.tool";
+		};
+		467EB9941DBE93C000614603 /* Week2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 467EB9991DBE93C000614603 /* Build configuration list for PBXNativeTarget "Week2" */;
+			buildPhases = (
+				467EB9911DBE93C000614603 /* Sources */,
+				467EB9921DBE93C000614603 /* Frameworks */,
+				467EB9931DBE93C000614603 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week2;
+			productName = Week2;
+			productReference = 467EB9951DBE93C000614603 /* Week2 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +200,14 @@
 				ORGANIZATIONNAME = "University of Cambridge";
 				TargetAttributes = {
 					467EB93B1DBE7D4B00614603 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					467EB9831DBE930E00614603 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					467EB9941DBE93C000614603 = {
 						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -110,6 +226,8 @@
 			projectRoot = "";
 			targets = (
 				467EB93B1DBE7D4B00614603 /* PartIB Computing Practicals */,
+				467EB9831DBE930E00614603 /* Week1 */,
+				467EB9941DBE93C000614603 /* Week2 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +238,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				467EB9401DBE7D4B00614603 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467EB9801DBE930E00614603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467EB9901DBE939800614603 /* SimpleAdder.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467EB9911DBE93C000614603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				467EB9B11DBEBD3500614603 /* InteractiveCalculator.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +357,35 @@
 		467EB9451DBE7D4B00614603 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"OTHER_LDFLAGS[arch=*]" = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		467EB9891DBE930E00614603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		467EB98A1DBE930E00614603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		467EB99A1DBE93C000614603 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		467EB99B1DBE93C000614603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -246,6 +409,25 @@
 				467EB9451DBE7D4B00614603 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467EB9881DBE930E00614603 /* Build configuration list for PBXNativeTarget "Week1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467EB9891DBE930E00614603 /* Debug */,
+				467EB98A1DBE930E00614603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		467EB9991DBE93C000614603 /* Build configuration list for PBXNativeTarget "Week2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				467EB99A1DBE93C000614603 /* Debug */,
+				467EB99B1DBE93C000614603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
