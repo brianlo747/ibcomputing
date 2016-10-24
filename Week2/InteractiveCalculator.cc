@@ -16,6 +16,8 @@ int main(int argc, char* argv[])
     
     srand(time(0));
     while(again == 'y') {
+        score = 0;
+        attempts = 0;
         printf("\nWelcome to the program that would (supposedly) improve your arithmetic!\n");
         printf("What would you like to do today?\n\n");
         printf("   1. Addition\n");
