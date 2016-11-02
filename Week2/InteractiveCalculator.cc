@@ -2,7 +2,7 @@
 #include<cstdlib>
 #include<iostream>
 #include<ctime>
-#include <chrono>
+#include<chrono>
 
 using namespace std;
 
