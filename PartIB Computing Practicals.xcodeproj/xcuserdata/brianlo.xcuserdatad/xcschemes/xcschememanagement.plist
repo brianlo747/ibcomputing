@@ -24,9 +24,24 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Week4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>4672C1D11DD0C23C00BA4E54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4672C1EB1DD1494600BA4E54</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>467EB93B1DBE7D4B00614603</key>
 		<dict>
 			<key>primary</key>
