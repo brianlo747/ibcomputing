@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4672C1E01DD0C9BF00BA4E54 /* MonteLn2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4672C1DF1DD0C9BF00BA4E54 /* MonteLn2.cpp */; };
-		4672C1F31DD1495600BA4E54 /* Minesweeper.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4672C1E31DD0DB5A00BA4E54 /* Minesweeper.cc */; };
+		4672C1F41DD9FA0000BA4E54 /* Minesweeper.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4672C1E31DD0DB5A00BA4E54 /* Minesweeper.cc */; };
 		467EB9401DBE7D4B00614603 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 467EB93F1DBE7D4B00614603 /* main.cpp */; };
 		467EB9901DBE939800614603 /* SimpleAdder.cc in Sources */ = {isa = PBXBuildFile; fileRef = 467EB98F1DBE939800614603 /* SimpleAdder.cc */; };
 		467EB9B11DBEBD3500614603 /* InteractiveCalculator.cc in Sources */ = {isa = PBXBuildFile; fileRef = 467EB99C1DBE93CC00614603 /* InteractiveCalculator.cc */; };
@@ -357,7 +356,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4672C1F31DD1495600BA4E54 /* Minesweeper.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,7 +387,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4672C1E01DD0C9BF00BA4E54 /* MonteLn2.cpp in Sources */,
+				4672C1F41DD9FA0000BA4E54 /* Minesweeper.cc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -564,6 +562,7 @@
 				4672C1F21DD1494600BA4E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		467EB9371DBE7D4B00614603 /* Build configuration list for PBXProject "PartIB Computing Practicals" */ = {
 			isa = XCConfigurationList;
